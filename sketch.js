@@ -18,6 +18,7 @@ function setup() {
   world = engine.world;
 // cria os sprites do objetos presentes no jogo
   ground = new Ground(1500, 600, 3000, 20);
+  corda = new Rope(hero.body, {x: 200, y: 20})
 
   hero = new Hero(400,380,250);
   monster = new Monster(1100,200,300);
